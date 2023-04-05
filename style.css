@@ -1,0 +1,157 @@
+:root {
+  --color-brand--1: #ffb545;
+  --color-brand--2: #00c46a;
+
+  --color-dark--1: #2d3439;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: rgb(214, 222, 224);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  color: var(--color-light--2);
+  font-weight: 400;
+  line-height: 1.6;
+  height: 100vh;
+  overscroll-behavior-y: none;
+
+  background-color: #fff;
+  padding: 2.5rem;
+
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.form {
+  background-color: var(--color-dark--2);
+  border-radius: 5px;
+  padding: 1.5rem 2.75rem;
+  margin-bottom: 1.75rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 2.5rem;
+
+  /* Match height and activity boxes */
+  height: 9.25rem;
+  transition: all 0.5s, transform 1ms;
+}
+
+.form__row {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar {
+  flex-basis: 80rem;
+  background-color: var(--color-dark--1);
+  padding: 3rem 5rem 4rem 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  flex: 0 0 50%;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.form__input {
+  width: 100%;
+  padding: 0.3rem 1.1rem;
+  font-family: inherit;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--color-light--3);
+  transition: all 0.2s;
+  margin-bottom: 15px;
+}
+
+.form__input:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+.form__btn {
+  margin-top: 10px;
+  width: 120px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.form__btn:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: auto;
+  font-size: 1.3rem;
+  text-align: center;
+  color: var(--color-light--1);
+}
+
+.linkedin-link:link,
+.linkedin-link:visited {
+  color: var(--color-light--1);
+  transition: all 0.2s;
+}
+
+.linkedin-link:hover,
+.linkedin-link:active {
+  color: var(--color-light--2);
+}
+
+#map {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-light--1);
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  border: 50px solid #f8f173;
+  background-color: #f8f173;
+  color: #2d3439;
+  font-size: 50px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-right: 50px;
+}
+
+.submit {
+  width: 200px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #37f79d;
+}
+
+.reset {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #c7f737;
+}
