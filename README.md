@@ -1,6 +1,6 @@
 # Cement petroleum Project
 
-This is an petroleum project to calculate some outputs to help petroleum engineers.
+This tool can help in cement calculation as this program can calculate the Slurry Weight, Slurry Yield, Slurry Volume and The Number of Sack of cement by knowledge of total weight and volume of composition and the hole and casing sizes and depths.
 The equations copy rights return to ENG. [Amr Saleh](https://www.linkedin.com/in/amr-saleh-3608571b8/)
 
 Implementation and codes copy rights are mine.
